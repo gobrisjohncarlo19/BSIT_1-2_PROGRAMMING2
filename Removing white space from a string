@@ -1,0 +1,18 @@
+package com.mycompany.mavenproject2;
+
+/**
+ *
+ * @author johncarlogobris
+ */
+public class RemovingWhiteSpaceFromAString {
+    
+    public static void main(String[] args){
+        
+        String str = "C  A   R   L   O " ;
+        
+        String str1 = str.replaceAll(" ", "");
+        
+        System.out.println(str1);
+        
+    }
+}
